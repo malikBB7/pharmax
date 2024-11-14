@@ -6,7 +6,12 @@ import cors from 'cors';
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors(
+    {
+        origin:["https://pharmax-five.vercel.app"],
+        methods:["POST","GET"],
+        credentials:true
+));
 app.use(bodyParser.json());
 
 // Endpoint to get access token
