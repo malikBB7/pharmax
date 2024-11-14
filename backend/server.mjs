@@ -10,6 +10,7 @@ const corsOptions = {
     origin: allowedOrigins,
     methods: 'GET,POST',  // Allowed methods
     allowedHeaders: 'Content-Type,Authorization', // Allowed headers
+    credentials: true,
 };
 app.use(cors(corsOptions));
 
