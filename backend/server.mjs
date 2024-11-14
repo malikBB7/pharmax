@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors(
     {
-        origin:["https://pharmax-five.vercel.app"],
+        origin:[""],
         methods:["POST","GET"],
         credentials:true
 ));
