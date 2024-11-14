@@ -1,0 +1,29 @@
+.footer {
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 5px 0; /* Adjust margin for responsiveness */
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .footer p {
+        font-size: 0.8em; /* Smaller text on smaller screens */
+    }
+}

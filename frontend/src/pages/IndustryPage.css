@@ -1,0 +1,13 @@
+/* src/pages/IndustryPage.css */
+.industry-page {
+  padding: 20px;
+}
+
+.industry-page h1 {
+  color: #8e44ad; /* Purple */
+}
+
+.industry-page p {
+  line-height: 1.6;
+  margin-top: 10px;
+}

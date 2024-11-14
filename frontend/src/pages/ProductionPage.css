@@ -1,0 +1,14 @@
+/* src/pages/ProductionPage.css */
+.production-page {
+    padding: 20px;
+  }
+  
+  .production-page h1 {
+    color: #27ae60; /* Green */
+  }
+  
+  .production-page p {
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,14 @@
+/* src/pages/SafetyControlPage.css */
+.safety-control-page {
+    padding: 20px;
+  }
+  
+  .safety-control-page h1 {
+    color: #2c3e50; /* Darker text color */
+  }
+  
+  .safety-control-page p {
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  

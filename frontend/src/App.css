@@ -1,0 +1,15 @@
+/* src/App.css */
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+/* src/App.css or src/index.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes full height */
+  background-image: url('./assets/BackGround.jpg');
+  background-size: cover; /* Make the background cover the whole viewport */
+  background-repeat: no-repeat; /* Prevent repetition of the image */
+  background-position: center; /* Center the background image */
+}

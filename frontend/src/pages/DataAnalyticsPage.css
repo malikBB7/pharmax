@@ -1,0 +1,14 @@
+/* src/pages/DataAnalyticsPage.css */
+.data-analytics-page {
+    padding: 20px;
+  }
+  
+  .data-analytics-page h1 {
+    color: #f39c12; /* Orange */
+  }
+  
+  .data-analytics-page p {
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  

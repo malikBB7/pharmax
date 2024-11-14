@@ -1,0 +1,38 @@
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Optional: adds a background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Background shadow */
+  border-radius: 8px; /* Optional: rounds the corners */
+  margin: 20px; /* Optional: space around the container */
+}
+  
+  .icon-row {
+    display: flex;
+    justify-content: space-around; /* Equal space between icons */
+    margin: 10px 0; /* Adds equal space above and below each row */
+    width: 100%; /* Ensure it takes the full width for proper spacing */
+    text-decoration: none;
+  }
+  
+  .icon-item {
+    flex: 1; /* Allow each icon to take equal space */
+    margin: 0 10px; /* Space between icons */
+    text-align: center; /* Center the icon text */
+    text-decoration: none;
+  }
+  
+  .icon-image {
+    max-width: 80px; /* Default size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between icon and heading */
+  }
+  
+  @media (max-width: 768px) {
+    .icon-image {
+      max-width: 50px; /* Smaller icon size on mobile */
+    }
+  }
+  

@@ -1,0 +1,14 @@
+/* src/pages/BatchProcessingPage.css */
+.batch-processing-page {
+    padding: 20px;
+  }
+  
+  .batch-processing-page h1 {
+    color: #34495e; /* Dark Blue */
+  }
+  
+  .batch-processing-page p {
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  

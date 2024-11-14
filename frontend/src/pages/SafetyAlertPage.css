@@ -1,0 +1,14 @@
+/* src/pages/SafetyAlertPage.css */
+.safety-alert-page {
+    padding: 20px;
+  }
+  
+  .safety-alert-page h1 {
+    color: #e74c3c; /* Red */
+  }
+  
+  .safety-alert-page p {
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  

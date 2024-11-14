@@ -1,0 +1,34 @@
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  transition: transform 0.3s;
+}
+
+.icon-item:hover {
+  transform: scale(1.05);
+}
+
+/* Targeting all link states explicitly to remove underline */
+.icon-link, .icon-link:link, .icon-link:visited, .icon-link:hover, .icon-link:active {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+.icon-heading {
+  text-align: center; /* Center the heading */
+  color: black; /* Link color */
+  margin: 5px 0; /* Space above and below heading */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .icon-item {
+      margin: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .icon-image {
+      max-width: 60px; /* Smaller icon size on mobile */
+  }
+}

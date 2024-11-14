@@ -1,0 +1,97 @@
+/* src/pages/QualityControlPage.css */
+
+.quality-control-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .top-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .get-data-button {
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-data-button:hover {
+    background-color: #005fa8;
+  }
+  
+  .filter-options-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filter-options label {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  
+  .filter-options input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .data-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .quality-control-page {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .get-data-button {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+  
+    .filter-options label {
+      font-size: 0.9rem;
+    }
+  
+    .data-table th,
+    .data-table td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  

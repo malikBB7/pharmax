@@ -1,0 +1,14 @@
+/* src/pages/SolventRecovery.css */
+.solvent-recovery-page {
+    padding: 20px;
+  }
+  
+  .solvent-recovery-page h1 {
+    color: #2980b9; /* Blue */
+  }
+  
+  .solvent-recovery-page p {
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
