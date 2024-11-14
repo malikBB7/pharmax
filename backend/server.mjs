@@ -8,8 +8,9 @@ const PORT = process.env.PORT || 5000;
 const allowedOrigins = ['https://pharmax-gr76.vercel.app'];
 const corsOptions = {
     origin: allowedOrigins,
-    methods: 'GET,POST',  // Allowed methods
-    allowedHeaders: 'Content-Type,Authorization', // Allowed headers
+    Header: Access-Control-Allow-Origin,
+    methods: 'GET,POST', 
+    allowedHeaders: 'Content-Type,Authorization', 
     credentials: true,
 };
 app.use(cors(corsOptions));
