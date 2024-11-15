@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Allowed origins array
-const allowedOrigins = ['https://pharmax-gr76.vercel.app'];
+const allowedOrigins = ['https://pharmax-five.vercel.app'];
 const corsOptions = {
     origin: allowedOrigins,
     methods: ['GET', 'POST', 'OPTIONS'], // Allow OPTIONS for preflight
