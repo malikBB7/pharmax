@@ -21,6 +21,10 @@ app.use(cors(corsOptions));
 // Parse incoming JSON requests
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.send('Server is running. Access endpoints at /get-access-token.');
+});
+
 // Endpoint to get access token
 app.post('/get-access-token', async (req, res) => {
     const { clientId, tenantId, clientSecret } = req.body;
