@@ -1,6 +1,6 @@
 export const getAccessToken = async () => {
     try {
-        const response = await fetch('http://localhost:5000/get-access-token', {
+        const response = await fetch('http://localhost:5001/get-access-token', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

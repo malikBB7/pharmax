@@ -28,7 +28,7 @@ class RegisterPage extends React.Component {
       const { access_token } = await getAccessToken(); // Get access token dynamically
 
       // Your API call to register the user with the access token
-      const response = await fetch(`https://graph.microsoft.com/v1.0/sites/${process.env.REACT_APP_SITE_ID}/lists/${process.env.listId}/items`, {
+      const response = await fetch(`https://graph.microsoft.com/v1.0/sites/${process.env.REACT_APP_SITE_ID}/lists/${process.env.REACT_APP_REGISTER_LOGIN_LIST_ID}/items`, {
         method: 'POST',
         headers: {  
           'Content-Type': 'application/json',
