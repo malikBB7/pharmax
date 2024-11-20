@@ -4,9 +4,12 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 
 const app = express();
-const PORT = process.env.PORT || 5001;
 
-app.use(cors());
+app.use(cors({
+    origin:"*",
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+}));
 app.use(bodyParser.json());
 
 // Endpoint to get access token
@@ -39,8 +42,4 @@ app.post('/get-access-token', async (req, res) => {
         console.error('Error getting access token:', error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
-});
-
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
 });
