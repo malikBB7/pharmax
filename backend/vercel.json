@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/get-access-token", 
-        "dest": "/api/server"       
+        "dest": "/api/server.mjs"       
       }
     ]
   }
