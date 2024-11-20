@@ -11,6 +11,9 @@
         "src": "/get-access-token", 
         "dest": "/api/server.mjs"       
       }
+    ],
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
     ]
-  }
+}
   
