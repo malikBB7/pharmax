@@ -5,12 +5,6 @@
         "src": "api/server.mjs", 
         "use": "@vercel/node"  
       }
-    ],
-    "routes": [
-      {
-        "src": "/get-access-token", 
-        "dest": "/api/server.mjs"       
-      }
-    ],
+    ]
 }
   
