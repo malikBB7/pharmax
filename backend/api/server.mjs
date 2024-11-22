@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 // Endpoint to get access token
 app.post('/get-access-token', async (req, res) => {
     const { clientId, tenantId, clientSecret} = req.body;
-    const tokenUrl = `https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`;
+    const tokenUrl = `process.env.TOKEN_URL`;
 
     const params = new URLSearchParams();
     params.append('client_id', clientId);
